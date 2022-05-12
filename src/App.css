@@ -1,0 +1,307 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+	overflow-y: scroll; 
+}
+
+.my-2{
+      padding: 2px;
+    margin: 29px;
+  position: absolute;
+  right: 40px;
+  display: flex;
+}
+.nav-item{
+  list-style: none;
+  margin: 5px;
+padding: 5px;
+}
+nav{
+  background-color: white;
+}
+.middle-part{ 
+ background-color: white;
+  /* position: absolute; */
+  right: 100px;
+  list-style: none;
+  width:400px;
+  height: 350px;
+  margin-left: 49vw;
+  border-radius: 5px;
+}
+.middlepart1{
+  padding: 72px;
+  margin: 0%;
+  height: 500px;
+   background-image:url("../public/b.jpg");
+  background-color: darksalmon;
+   background-repeat: no-repeat;
+}
+#logo{
+  width: 385px;
+  height: 65px;
+  opacity: 0.8;
+  
+}
+.footer{
+  /* position: absolute; */
+background-color:rgb(172, 228, 237);
+
+  padding: 53px;
+}
+.footer1{
+  background-color:rgb(172, 228, 237);
+}
+/* .middlepart1{
+  width: 100%;
+  height: 100%;
+  border: 10px black;
+} */
+.loginfor{
+   display: flex; 
+  margin: 15px;
+  
+}
+ 
+.forgot{
+  
+  
+  margin-left: 237px;
+}
+#signlogo{
+  text-decoration: none;
+  display: flex;
+}
+.tab{
+  width: 50%;
+  list-style: none;
+}
+.create{
+  border-radius: 10px;
+  background-color: tomato;
+}
+
+.col-4{
+  list-style: none;
+  display: flex;
+}
+.col-4 li{
+  margin: 10px;
+}
+li{
+  list-style: none;
+}
+
+
+
+.col-1{
+  margin-right: 10px;
+  background-color:white;
+  border-radius: 50px ;
+  width: 49%;
+  height: 370px;
+  
+}
+.col-2{
+  display: flex;
+  width: 40%;
+  border-radius: 1px;
+}
+.row-0{
+  width: 80%;
+  margin: auto;
+}
+#liflex{
+  /* background-color: #61dafb; */
+  margin: 31px;
+  display:flex !important;
+}
+.bi{
+  margin: auto; 
+  padding: 5px;
+}
+#copyright{
+  margin-top: 30px;
+}
+label{
+  margin-left: -72%;
+}
+.input{
+  width: 95%;
+}
+/* .button-1{    width: 138px;
+margin-left: -64%;
+margin-top: 7px;
+border-radius: 5px;} */
+
+#login2{
+  width: 138px;
+  margin-left: 0%;
+  margin-top: 7px;
+  border-radius: 5px;
+  background-color: tomato;
+}
+#forgetpass{
+  margin-left: 80px;
+}
+#editprofile{
+  color: rgb(90, 192, 226);
+  margin-left: 147px;
+}
+#hpic{
+  margin-left: -170px;
+}
+#hopic{
+  border-radius: 80px;
+}
+.displayflex{
+size: 10px;
+height: 50px;
+  margin: 12px;
+  display: flex;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+.gap{
+  font-size: 18px;
+  margin-left: 20px;
+}
+.gap1{
+  font-size: 18px;
+  margin-left: 130px;
+}
+.box{
+  font-size: 10px;
+  width: 75%;
+  margin: auto;
+}
+.col8{
+  color: green;
+}
+.row8{
+  margin: 10px;
+}
+#his{
+  margin-left: -87%;
+  font-size: 15px;
+}
+#his1{
+  margin-left: -73%;
+}
+.credit{
+  background-color: white;
+  border-radius: 5px;
+  /* border: 2px solid red; */
+  display: flex; 
+  margin:31px
+}
+button{
+  border-radius: 5px;
+  border: none;
+}
+#butcolor
+{
+  background-color: #838486;
+}
+#dollor{
+font-size: 20px;
+margin-left: 50vw;
+}
+#lidollor{
+  font-size: 16px;
+}
+#yourcredit{
+  margin-top: 20px;
+  margin-bottom: -20px;
+  font-size: 20px;
+  margin-left: -80%;
+}
+#myprofile{
+margin-left: -63%;
+}
+#body1{
+  background-color: #c4cfcf;
+}
+#uploadphoto{
+  color: #61dafb;
+}
+#logo1{
+  width: 125px;
+  margin-left: 40px;
+}
+#for{
+  margin-bottom: -6px;
+  margin-left: 58px;
+  margin-top: 40px;
+  display: flex;
+}
+.box3{
+  border-radius: 30px;
+  background-color: aliceblue;
+}
+.marleft{
+ margin-right: 20px;
+}
+.displayflex1{
+  display: flex;
+}
+#editpayment {
+  color: rgb(90, 192, 226);
+  margin-left: 300px;
+}
+.bifac{
+  background-color: rgb(137, 200, 218);
+}
+.active{
+  background-color: #838486;
+}
+#checkbox{
+  display:flex;
+  margin-left: 20px;
+  margin: 10px;
+}
+#checkbox1{
+  display: flex;
+}
